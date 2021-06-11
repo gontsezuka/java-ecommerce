@@ -20,7 +20,6 @@ public class CategoryTest {
 		entityManager.persist(category);
 		entityManager.getTransaction().commit();
 		entityManager.close();
-		cd 
 		System.out.println("User persisted:"+category.toString());
 	}
 }
