@@ -13,17 +13,19 @@ public class UserDAO extends JpaDAO<Users> implements GenericDAO<Users> {
 		// TODO Auto-generated constructor stub
 	}
 
+	/**
+	 * This will call the Super class
+	 */
 	@Override
 	public Users create(Users t) {
-		// TODO Auto-generated method stub
 		return super.create(t);
 	}
 	
 	
 	@Override
-	public Users update(Users t) {
+	public Users update(Users user) {
 		// TODO Auto-generated method stub
-		return null;
+		return super.update(user);
 	}
 
 	@Override

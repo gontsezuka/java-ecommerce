@@ -8,7 +8,15 @@ public class CalculatorTest {
 
 	@Test
 	public void testAdd() {
-		fail("Not yet implemented");
+		
+		Calculator calculator = new Calculator();
+		int a = 2;
+		int b = 2;
+		int result = calculator.add(a, b);
+		
+		int expected = 4;
+		
+		assertEquals(expected,result);
 	}
 
 }
