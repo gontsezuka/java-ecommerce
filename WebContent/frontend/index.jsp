@@ -19,7 +19,7 @@
 			<h2>Most Favorite Books</h2>
 			<br/><br/><br/>
 		</div>
-		
+	
 		<jsp:directive.include file="footer.jsp" />
 </body>
 </html>
